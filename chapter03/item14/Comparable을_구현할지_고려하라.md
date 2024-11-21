@@ -1,4 +1,4 @@
-# Comparable을 구현할지 고려하라
+# Item 14. Comparable을 구현할지 고려하라
 
 ## Comparable 인터페이스란?
 
