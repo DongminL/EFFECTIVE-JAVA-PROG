@@ -102,7 +102,8 @@ void compareToTest() {
 ### `compareTo` 메서드 작성 요령
 ---
 
-
+1. 제네릭 타입이기 때문에 타입 확인이나 형변환을 할 필요가 없다.
+2. `null`을 인수로 넣어 호출하면 `NullPointException`을 던져야 한다.
 
 ### 새로운 컴포넌트를 추가할 때
 ---
