@@ -68,7 +68,6 @@ public static void main(String[] args) {
 멤버와 달리 쓰이는 시점에 선언과 동시에 인스턴스가 만들어진다.
 
 그리고 오직 비정적인 문맥에서 사용될 때만 바깥 클래스의 인스턴스를 참조할 수 있다
-비정적이란 말이 어떤 뜻인지 몰라서 찾아봤습니다....
 
 ```java
 public class OuterClass {
