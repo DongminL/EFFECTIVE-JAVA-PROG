@@ -160,7 +160,7 @@ public class Outer {
 ```
 출력 값이 10이라고 잘 나옵니다..... 컴파일 에러도 없고 런타임 에러도 없고
 
-JAVA 8 기준
+JAVA 8 기준  
 JLS 8.1.3 에서는  지역 클래스에선 `static final` 상수는 가능하지만 `static`은 컴파일 에러가 난다고 써져있습니다.
 [JLS 8.1.3 문서](https://docs.oracle.com/javase/specs/jls/se8/html/jls-8.html#jls-8.1.3)
 
