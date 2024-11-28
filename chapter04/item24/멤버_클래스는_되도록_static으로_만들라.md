@@ -161,7 +161,7 @@ public class Outer {
 출력 값이 10이라고 잘 나옵니다..... 컴파일 에러도 없고 런타임 에러도 없고
 
 JAVA 8 기준  
-JLS 8.1.3 에서는  지역 클래스에선 `static final` 상수는 가능하지만 `static`은 컴파일 에러가 난다고 써져있습니다.
+JLS 8.1.3 에서는  지역 클래스에선 `static final` 상수는 가능하지만 `static`은 컴파일 에러가 난다고 써져있습니다.  
 [JLS 8.1.3 문서](https://docs.oracle.com/javase/specs/jls/se8/html/jls-8.html#jls-8.1.3)
 
 JDK 버전이 올라가면서 컴파일 에러가 나지 않고 잘 동작을 하는거 같은데 그래도 명세에 지켜서 지역 클래스에서 정적 멤버를 쓰지 않는게 좋을거 같다고 생각합니다!
